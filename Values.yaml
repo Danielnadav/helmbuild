@@ -1,6 +1,28 @@
-replicaaCount: 1
-repository: nginx
-tag: 1.16.0
-# PullPolicy:  "IfNotPresent" 
-PullPolicy_image: IfNotPresent
-image_name: nginx:1.16.0
+# # replicaaCount: 1
+
+# # image:
+# #   name: https://helm.nginx.com/stable
+# #   repository: nginx
+# #   pullPolicy: IfNotPresent
+
+# replicaCount: 1
+# label: nginx
+# port: 80
+# spec:
+#   containers:
+#     name: nginx
+#     repository: nginx
+#     pullPolicy: IfNotPresent
+#   # Overrides the image tag whose default is the chart appVersion.
+#   tag: "1.20"
+# # metadata:
+# # namemta: hello-world
+
+
+
+replicaCount: 2
+
+image:
+  repository: nginx
+  tag: "1.16.0"
+  pullPolicy: IfNotPresent

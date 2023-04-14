@@ -5,7 +5,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: {{ .Values.replicaaCount }}
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: nginx
@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: {{ .Values.image_name }}
-          imagePullPolicy: {{ .Values.PullPolicy_image }}
+          image: nginxdemos/hello
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
               containerPort: 80
