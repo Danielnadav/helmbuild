@@ -20,7 +20,7 @@
 
 
 
-replicaCount: 2
+replicaCount: 4
 
 image:
   repository: nginx
