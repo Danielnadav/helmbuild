@@ -1,9 +1,9 @@
-dependencies:
-- name: elasticsearch
-  repository: https://charts.bitnami.com/bitnami
-  version: 19.6.0
-- name: kibana
-  repository: https://charts.bitnami.com/bitnami
-  version: 10.2.18
-digest: sha256:252385d12746a512d98d1b46330c9ec9eaa1d4fc5ba28bbb7fbda0b8eb0f8f65
-generated: "2023-04-14T14:04:28.373122+03:00"
+# dependencies:
+# - name: elasticsearch
+#   repository: https://charts.bitnami.com/bitnami
+#   version: 19.6.0
+# - name: kibana
+#   repository: https://charts.bitnami.com/bitnami
+#   version: 10.2.18
+# digest: sha256:252385d12746a512d98d1b46330c9ec9eaa1d4fc5ba28bbb7fbda0b8eb0f8f65
+# generated: "2023-04-14T14:04:28.373122+03:00"
